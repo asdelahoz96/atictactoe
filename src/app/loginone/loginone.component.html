@@ -1,0 +1,16 @@
+<div container-center>
+    <div class="row">
+        <div class="col text-center">
+          <h3 class="animate-charcter">Tic Tac Toe</h3>
+        </div>
+      </div>
+</div>
+<div class="game-container">
+    <div class="game-board">
+        <div class="input-group">
+            <input type="email" class="form-control" placeholder="Jugador X" aria-label="Jugador X" aria-describedby="button-addon2"
+            [(ngModel)]="usuario.jugador">
+            <button class="btn btn-outline-secondary" type="button" (click)="ingresar()" routerLink="/game" id="button-addon2">Jugar</button>
+          </div>
+    </div>  
+</div>
