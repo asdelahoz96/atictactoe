@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { UnirseComponent } from './unirse.component';
+import { JuegoComponent } from './juego.component';
 
-describe('UnirseComponent', () => {
-  let component: UnirseComponent;
-  let fixture: ComponentFixture<UnirseComponent>;
+describe('GameComponent', () => {
+  let component: JuegoComponent;
+  let fixture: ComponentFixture<JuegoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ UnirseComponent ]
+      declarations: [ JuegoComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(UnirseComponent);
+    fixture = TestBed.createComponent(JuegoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

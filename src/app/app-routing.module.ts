@@ -1,10 +1,10 @@
 import { Component, NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { GameComponent } from './components/game/game.component';
-import { LoginComponent } from './login/login/login.component';
-import { LoginoneComponent } from './loginone/loginone.component';
-import { PagenfComponent } from './pagenf/pagenf.component';
-import { UnirseComponent } from './unirse/unirse.component';
+import { JuegoComponent } from './juego/juego.component';
+import { LoginComponent } from './login/login.component';
+import { LoginuserComponent } from './loginuser/loginuser.component';
+import { PnfComponent } from './pagenotfound/pnf.component';
+import { LoginunirseComponent } from './loginunirse/loginunirse.component';
 
 
 const routes: Routes = [
@@ -18,20 +18,20 @@ const routes: Routes = [
   component:LoginComponent
 },  
 {
-  path:"game",
-  component:GameComponent
+  path:"Juego",
+  component:JuegoComponent
 },
 {
-  path:"one",
-  component:LoginoneComponent
+  path:"IngresodeUser",
+  component:LoginuserComponent
 },
 {
-  path:"unirse",
-  component:UnirseComponent
+  path:"IngresodeId",
+  component:LoginunirseComponent
 },
 {
   path:"**",
-  component:PagenfComponent
+  component:PnfComponent
 } 
 ];
 

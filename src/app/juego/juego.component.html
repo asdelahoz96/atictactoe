@@ -1,7 +1,7 @@
 <div class="container col-12">
     <div class="row">
         <div class="col">
-            <h3>Jugador : {{player_turn}}</h3>
+            <h3>Jugador : {{turno}}</h3>
         </div>
         <div class="col text-right">
             <h3 type="button" routerLink="/Login">Salir</h3>
@@ -10,7 +10,7 @@
 </div>
 <div class="game-container">
     <div class="game-board">
-        <div *ngFor="let square of board; let i =index" (click)="handlerPlayer(i)" [ngClass]="{'playerO':square=='O'}" class="square">{{square}}</div>
+        <div *ngFor="let cuadro of tabla; let i =index" (click)="control(i)" class="square">{{cuadro}}</div>
     </div>  
 </div>
 

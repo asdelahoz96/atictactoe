@@ -2,10 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-pagenf',
-  templateUrl: './pagenf.component.html',
-  styleUrls: ['./pagenf.component.scss']
+  templateUrl: './pnf.component.html',
+  styleUrls: ['./pnf.component.scss']
 })
-export class PagenfComponent implements OnInit {
+export class PnfComponent implements OnInit {
 
   constructor() { }
 

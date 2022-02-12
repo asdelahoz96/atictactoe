@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../services/auth.service';
 
 @Component({
-  selector: 'app-loginone',
-  templateUrl: './loginone.component.html',
-  styleUrls: ['./loginone.component.scss']
+  selector: 'app-loginuser',
+  templateUrl: './loginuser.component.html',
+  styleUrls: ['./loginuser.component.scss']
 })
-export class LoginoneComponent implements OnInit {
+export class LoginuserComponent implements OnInit {
   usuario={
     jugador:'',
     password:'logeado'

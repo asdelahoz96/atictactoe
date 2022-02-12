@@ -3,24 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { GameComponent } from './components/game/game.component';
-import { LoginComponent } from './login/login/login.component';
+import { JuegoComponent } from './juego/juego.component';
+import { LoginComponent } from './login/login.component';
 import { environment } from 'src/environments/environment';
-import { PagenfComponent } from './pagenf/pagenf.component';
-import { LoginoneComponent } from './loginone/loginone.component';
+import { PnfComponent } from './pagenotfound/pnf.component';
+import { LoginuserComponent } from './loginuser/loginuser.component';
 import { FormsModule } from '@angular/forms';
 import { AngularFireModule } from '@angular/fire/compat';
-import { UnirseComponent } from './unirse/unirse.component';
+import { LoginunirseComponent } from './loginunirse/loginunirse.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    GameComponent,
+    JuegoComponent,
     LoginComponent,
-    PagenfComponent,
-    LoginoneComponent,
-    UnirseComponent,
+    PnfComponent,
+    LoginuserComponent,
+    LoginunirseComponent,
   ],
   imports: [
     BrowserModule,

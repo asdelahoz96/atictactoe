@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LoginoneComponent } from './loginone.component';
+import { PnfComponent } from './pnf.component';
 
-describe('LoginoneComponent', () => {
-  let component: LoginoneComponent;
-  let fixture: ComponentFixture<LoginoneComponent>;
+describe('PagenfComponent', () => {
+  let component: PnfComponent;
+  let fixture: ComponentFixture<PnfComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LoginoneComponent ]
+      declarations: [ PnfComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(LoginoneComponent);
+    fixture = TestBed.createComponent(PnfComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
